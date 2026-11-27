@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="IKON Cushion Work – custom sofa, cushion and upholstery work in Naregaon, Aurangabad, Maharashtra.">
+  <title>IKON Cushion Work | Custom Cushion & Sofa Work</title>
+  <style>
+    :root{--ink:#17221e;--muted:#68736d;--cream:#f7f4ed;--paper:#fffefa;--green:#254d3d;--lime:#d8e4b5;--gold:#c38b4b}
+    *{box-sizing:border-box} html{scroll-behavior:smooth}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--cream);color:var(--ink);line-height:1.6}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+    header{background:rgba(255,254,250,.94);position:sticky;top:0;z-index:5;border-bottom:1px solid #e8e2d6;backdrop-filter:blur(10px)}
+    .nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{font-weight:900;letter-spacing:1.5px;font-size:22px}.brand span{color:var(--gold)}
+    nav{display:flex;gap:25px;color:#4f5b54;font-size:14px;font-weight:700}
+    .nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;background:var(--green);color:white;padding:13px 20px;border-radius:7px;font-weight:700}
+    .hero{padding:76px 0 70px;background:radial-gradient(circle at 85% 20%,#e5e8d3 0,transparent 30%),linear-gradient(120deg,#f7f4ed,#eee9dc)}
+    .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:50px;align-items:center}
+    .eyebrow{color:#8d673d;text-transform:uppercase;letter-spacing:2px;font-size:12px;font-weight:800}
+    h1{font-size:clamp(42px,6vw,70px);line-height:1.04;letter-spacing:-2px;margin:15px 0 20px}
+    .hero p{font-size:18px;color:var(--muted);max-width:520px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn.secondary{background:transparent;color:var(--green);border:1px solid #aab7a9}
+    .hero-art{min-height:390px;border-radius:22px;background:linear-gradient(145deg,#d4c2a8,#8d9b7c);padding:28px;display:flex;align-items:end;overflow:hidden;position:relative}
+    .hero-art:before{content:"";position:absolute;width:280px;height:280px;border-radius:50%;background:#f3e8d6;top:32px;right:20px;opacity:.65}
+    .sofa{position:relative;width:100%;height:210px;background:#315746;border-radius:25px 25px 18px 18px;box-shadow:0 24px 35px #24382c55}
+    .sofa:before{content:"";position:absolute;left:6%;right:6%;top:-50px;height:100px;border-radius:20px;background:linear-gradient(90deg,#b7a184 0 31%,#d2bea0 31% 66%,#a99072 66%);box-shadow:0 8px 15px #24382c33}
+    .sofa:after{content:"";position:absolute;left:8%;right:8%;bottom:-18px;height:22px;background:#263e32;border-radius:0 0 10px 10px}
+    .cushion{position:absolute;z-index:2;top:76px;width:95px;height:90px;border-radius:12px;background:#d9c8a9;box-shadow:inset -8px -7px 0 #b9a687,0 10px 14px #17221e33}
+    .c1{left:17%}.c2{left:42%;background:#c88f63;box-shadow:inset -8px -7px 0 #a86d49,0 10px 14px #17221e33}.c3{right:17%;background:#e1d9c8}
+    section{padding:76px 0}.section-head{text-align:center;max-width:650px;margin:0 auto 38px}.section-head h2{font-size:clamp(30px,4vw,42px);margin:8px 0}.section-head p{color:var(--muted);margin:0}
+    .services{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .service{background:var(--paper);padding:28px;border:1px solid #ece6da;border-radius:14px}
+    .service .num{font-size:12px;color:var(--gold);font-weight:900;letter-spacing:1px}.service h3{margin:12px 0 7px;font-size:21px}.service p{margin:0;color:var(--muted);font-size:15px}
+    .about{background:#e9e8dc}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center}
+    .about-panel{background:var(--green);color:white;border-radius:18px;padding:38px}.about-panel h3{font-size:27px;line-height:1.2;margin:0 0 15px}.about-panel p{color:#dce5dc}
+    .checks{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:22px}.checks span:before{content:"✓";color:var(--lime);font-weight:900;margin-right:9px}
+    .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}.contact-card{background:var(--paper);padding:30px;border:1px solid #ece6da;border-radius:14px}.contact-card h3{margin-top:0}.detail{padding:12px 0;border-bottom:1px solid #eee8dc}.detail:last-child{border:0}.detail small{display:block;color:var(--muted);font-weight:700;text-transform:uppercase;letter-spacing:1px;font-size:10px}.detail strong{font-size:17px}
+    .map-link{display:inline-block;color:var(--green);font-weight:800;text-decoration:underline;margin-top:14px}
+    .closing{background:var(--green);color:white;text-align:center;padding:58px 0}.closing h2{font-size:clamp(28px,4vw,40px);margin:0 0 10px}.closing p{color:#dce5dc}.closing .btn{background:var(--lime);color:var(--ink);margin-top:12px}
+    footer{background:#17221e;color:#c8d0c9;padding:22px 0;font-size:13px}.foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+    @media(max-width:760px){nav{display:none}.hero{padding:52px 0}.hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr}.hero-art{min-height:300px}.services{grid-template-columns:1fr}.checks{grid-template-columns:1fr}.nav{height:66px}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#home">IKON <span>CUSHION WORK</span></a>
+    <nav><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+    <a class="nav-cta" href="tel:8482971786">Call Now</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="eyebrow">Comfort • Craft • Quality</div>
+        <h1>Make your space feel like <span style="color:#8b6844">home.</span></h1>
+        <p>Give your sofas and seating a fresh new look with custom cushion and upholstery work from IKON Cushion Work.</p>
+        <div class="actions">
+          <a class="btn" href="tel:8482971786">Call 8482971786</a>
+          <a class="btn secondary" href="#services">Explore Services</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Illustration of a sofa with cushions">
+        <div class="sofa"><i class="cushion c1"></i><i class="cushion c2"></i><i class="cushion c3"></i></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="wrap">
+      <div class="section-head"><div class="eyebrow">What we do</div><h2>Our Services</h2><p>Thoughtful finishing and comfortable seating solutions for your home or workspace.</p></div>
+      <div class="services">
+        <article class="service"><div class="num">01 / CUSHIONS</div><h3>Custom Cushions</h3><p>Cushions made to suit your seating, preferred fabric and comfort needs.</p></article>
+        <article class="service"><div class="num">02 / SOFAS</div><h3>Sofa Work</h3><p>Refresh the look and feel of your sofa with upholstery and cushion work.</p></article>
+        <article class="service"><div class="num">03 / UPHOLSTERY</div><h3>Repair & Upholstery</h3><p>Give existing seating a renewed finish with careful repair and upholstery work.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="wrap about-grid">
+      <div><div class="eyebrow">About IKON</div><h2 style="font-size:clamp(32px,4vw,46px);line-height:1.1">Comfort is in the details.</h2><p style="color:#58635b">At IKON Cushion Work, we help bring comfort and a refreshed look to your seating. Get in touch to discuss your cushion or sofa work requirements.</p></div>
+      <div class="about-panel"><h3>A fresh look for your favourite place to sit.</h3><p>Tell us what you have in mind and speak with us about your project.</p><div class="checks"><span>Custom work</span><span>Comfort focused</span><span>Fabric choices</span><span>Personal service</span></div></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="section-head"><div class="eyebrow">Get in touch</div><h2>Visit or call us</h2><p>Contact IKON Cushion Work to discuss your requirements.</p></div>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Contact Details</h3>
+          <div class="detail"><small>Phone</small><strong>8482971786</strong></div>
+          <div class="detail"><small>Address</small><strong>Naregaon, Aurangabad (CSN), Maharashtra, India</strong></div>
+          <a class="btn" style="margin-top:20px" href="tel:8482971786">Call IKON Cushion Work</a>
+        </div>
+        <div class="contact-card">
+          <h3>Find our location</h3>
+          <p style="color:#68736d">Use the map link below to open the IKON Cushion Work location in Google Maps.</p>
+          <a class="map-link" href="https://maps.app.goo.gl/GrL8vDoGvZABHgq48" target="_blank" rel="noopener">Open location in Google Maps ↗</a>
+          <p style="font-size:13px;color:#879087;margin-top:25px">Naregaon, Aurangabad (CSN), Maharashtra, India</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="closing">
+    <div class="wrap"><h2>Ready to refresh your cushions?</h2><p>Call us and let's talk about your project.</p><a class="btn" href="tel:8482971786">Call 8482971786</a></div>
+  </section>
+</main>
+
+<footer><div class="wrap foot"><span>© <span id="year"></span> IKON Cushion Work. All rights reserved.</span><span>Naregaon, Aurangabad (CSN), Maharashtra</span></div></footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
